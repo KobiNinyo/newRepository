@@ -1,0 +1,36 @@
+h1 {
+  font-family: system-ui;
+  font-weight: lighter;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+h2 {
+  font-family: system-ui;
+  font-weight: lighter;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+}
+.board {
+  border-collapse: collapse;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.board td {
+  border: 1.5px solid #000;
+  width: 40px;
+  height: 55px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.btn {
+  font-family: system-ui;
+  text-align: center;
+  margin: auto;
+  text-align: center;
+  border-radius: 70px;
+}
