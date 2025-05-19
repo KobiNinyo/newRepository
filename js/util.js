@@ -11,8 +11,13 @@ function createMat(ROWS, COLS) {
   return mat
 }
 
-// function getRandomInt(min, max) {
-//   const minCeiled = Math.ceil(min)
-//   const maxFloored = Math.floor(max)
-//   return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled)
+
+// function setMinesNegsCount(board) {
+//     for (let i = 0; i < board.length; i++) {
+//         for (let j = 0; j < board[0].length; j++) {
+//             const currCell = board[i][j]
+//             if (currCell.isMine) continue
+//             currCell.minesAroundCount = countMinesAroundCell(i, j)
+//         }
+//     }
 // }
